@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="113802a5aa5e4c0590539b6487df689b" Name="Diagram1">
+        <EntityTypeShape EntityType="KyrsovoyProjectModel.sysdiagrams" Width="1.5" PointX="2.75" PointY="8.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="KyrsovoyProjectModel.Группа" Width="1.5" PointX="0.75" PointY="4.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="KyrsovoyProjectModel.Кабинет" Width="1.5" PointX="0.75" PointY="1.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="KyrsovoyProjectModel.Курс" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="KyrsovoyProjectModel.Предмет" Width="1.5" PointX="0.75" PointY="7.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="KyrsovoyProjectModel.Преподаватель" Width="1.5" PointX="0.75" PointY="10.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="KyrsovoyProjectModel.Расписание" Width="1.5" PointX="3" PointY="4.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="KyrsovoyProjectModel.Студенты" Width="1.5" PointX="6" PointY="4.5" IsExpanded="true" />
+        <AssociationConnector Association="KyrsovoyProjectModel.FK_Расписание_Группа" ManuallyRouted="false" />
+        <AssociationConnector Association="KyrsovoyProjectModel.FK_Студенты_Группа" ManuallyRouted="false" />
+        <AssociationConnector Association="KyrsovoyProjectModel.FK_Расписание_Кабинет" ManuallyRouted="false" />
+        <AssociationConnector Association="KyrsovoyProjectModel.FK_Студенты_Курс" ManuallyRouted="false" />
+        <AssociationConnector Association="KyrsovoyProjectModel.FK_Расписание_Предмет" ManuallyRouted="false" />
+        <AssociationConnector Association="KyrsovoyProjectModel.FK_Расписание_Преподаватель" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
